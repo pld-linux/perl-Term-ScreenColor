@@ -3,8 +3,8 @@
 %bcond_without	tests	# do perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Term
-%define	pnam	ScreenColor
+%define		pdir	Term
+%define		pnam	ScreenColor
 Summary:	Term::ScreenColor - screen positioning and coloring module for Perl
 Summary(pl):	Term::ScreenColor - modu³ pozycjonowania i kolorowania ekranu dla Perla
 Name:		perl-Term-ScreenColor
