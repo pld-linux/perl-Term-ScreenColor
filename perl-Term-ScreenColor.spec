@@ -6,7 +6,7 @@
 %define		pdir	Term
 %define		pnam	ScreenColor
 Summary:	Term::ScreenColor - screen positioning and coloring module for Perl
-Summary(pl):	Term::ScreenColor - modu³ pozycjonowania i kolorowania ekranu dla Perla
+Summary(pl.UTF-8):   Term::ScreenColor - moduÅ‚ pozycjonowania i kolorowania ekranu dla Perla
 Name:		perl-Term-ScreenColor
 Version:	1.09
 Release:	2
@@ -25,9 +25,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Term::ScreenColor adds ANSI coloring support, along with a few other
 useful methods, to the objects provided in Term::Screen.
 
-%description -l pl
-Term::ScreenColor dodaje obs³ugê kolorów ANSI oraz parê innych
-u¿ytecznych metod do obiektów dostarczonych w module Term::Screen.
+%description -l pl.UTF-8
+Term::ScreenColor dodaje obsÅ‚ugÄ™ kolorÃ³w ANSI oraz parÄ™ innych
+uÅ¼ytecznych metod do obiektÃ³w dostarczonych w module Term::Screen.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
