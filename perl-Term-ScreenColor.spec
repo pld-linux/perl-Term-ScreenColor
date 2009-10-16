@@ -8,13 +8,13 @@
 Summary:	Term::ScreenColor - screen positioning and coloring module for Perl
 Summary(pl.UTF-8):	Term::ScreenColor - moduł pozycjonowania i kolorowania ekranu dla Perla
 Name:		perl-Term-ScreenColor
-Version:	1.09
-Release:	3
+Version:	1.10
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	2a0f26e057b1fd526f16362385ca1623
+# Source0-md5:	27a51f41c56d37cc12297844f28d597d
 BuildRequires:	perl-Term-Screen
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
