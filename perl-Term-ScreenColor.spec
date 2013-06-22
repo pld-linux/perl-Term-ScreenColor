@@ -1,6 +1,6 @@
 #
 # Conditional build:
-%bcond_without	tests	# do perform "make test"
+%bcond_with	tests	# do perform "make test" (disabled b/c tests get stuck on builders)
 #
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Term
@@ -9,7 +9,7 @@ Summary:	Term::ScreenColor - screen positioning and coloring module for Perl
 Summary(pl.UTF-8):	Term::ScreenColor - moduł pozycjonowania i kolorowania ekranu dla Perla
 Name:		perl-Term-ScreenColor
 Version:	1.20
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
