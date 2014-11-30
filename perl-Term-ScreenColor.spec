@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_with	tests	# do perform "make test" (disabled b/c tests get stuck on builders)
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Term
 %define		pnam	ScreenColor
+%include	/usr/lib/rpm/macros.perl
 Summary:	Term::ScreenColor - screen positioning and coloring module for Perl
 Summary(pl.UTF-8):	Term::ScreenColor - moduł pozycjonowania i kolorowania ekranu dla Perla
 Name:		perl-Term-ScreenColor
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	a79bff3bd9ee9dbae05d54864f42bba3
+URL:		http://search.cpan.org/dist/Term-ScreenColor/
 BuildRequires:	perl-Term-Screen
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
