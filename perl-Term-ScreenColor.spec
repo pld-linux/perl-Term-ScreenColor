@@ -4,7 +4,6 @@
 
 %define		pdir	Term
 %define		pnam	ScreenColor
-%include	/usr/lib/rpm/macros.perl
 Summary:	Term::ScreenColor - screen positioning and coloring module for Perl
 Summary(pl.UTF-8):	Term::ScreenColor - moduł pozycjonowania i kolorowania ekranu dla Perla
 Name:		perl-Term-ScreenColor
